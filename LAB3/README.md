@@ -41,7 +41,7 @@ TH2: Defender chặn file EICAR ngay lúc ghi, thấy trong Protection history l
 Get-MpThreatDetection, không có đụng gì tới việc tắt bảo vệ hay tạo exclusion.
 RealTimeProtectionEnabled = True suốt. PASS.
 
-TH3: Sinh được cả 3 loại event 4624 (login đúng), 4625 (login sai, mình cố tình
+TH3: Sinh được cả 3 loại event 4624 (login đúng), 4625 (login sai, cố tình
 gõ sai 2 lần), 4648 (do dùng runas với credential khác). Sau khi đổi mật khẩu thử
 lại mật khẩu cũ thì fail hẳn (4625), mật khẩu mới thì login được bình thường. PASS.
 
@@ -55,7 +55,7 @@ NAT, shut down hẳn VM (không phải restart Windows suông) rồi mở lại 
 Xong vụ mạng thì tới lượt winget báo lỗi:
 'Failed when searching source: msstore - 0x8a15005e: The server certificate did
 not match any of the expected values'
-Máy vẫn tìm thấy đúng gói ở nguồn "winget" nên mình thêm cờ --source winget vào
+Máy vẫn tìm thấy đúng gói ở nguồn "winget" nên thêm cờ --source winget vào
 lệnh cài là chạy được, không cần sửa gì thêm.
 
 Sau khi cài xong hết công cụ thì đổi Network Adapter về lại Host-only trước
