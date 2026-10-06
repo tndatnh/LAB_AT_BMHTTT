@@ -23,7 +23,4 @@ Windows Server 2025 ping thông 10.0.0.1 và đăng nhập WebGUI pfSense thành
 Cổng DMZ được kích hoạt và nhận diện đúng trên hệ thống.
 Đã disable thành công 2 rule mặc định và tạo xong rule Block ICMP đầu tiên trên tab LAN.
 5. Cấu trúc bài nộp
-LAB_AT_BMHTTT/
-└── LAB3/
-    ├── README.md
-    └── 11_DH_CNPM1-Lab3_1150080011-NguyenHoangTienDat.docx
+LAB_AT_BMHTTT/LAB3/(README.md và 11_DH_CNPM1-Lab3_1150080011-NguyenHoangTienDat.docx)
